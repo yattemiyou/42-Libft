@@ -7,6 +7,10 @@ INCLUDE = -I.
 SRCDIR = ./
 SRCS = ft_calloc.c
 SRCS += ft_memset.c
+SRCS += ft_putchar_fd.c
+SRCS += ft_putendl_fd.c
+SRCS += ft_putstr_fd.c
+SRCS += ft_strlen.c
 
 OBJS = $(addprefix $(SRCDIR),$(SRCS:%.c=%.o))
 
