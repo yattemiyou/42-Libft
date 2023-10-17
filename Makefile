@@ -5,7 +5,8 @@ NAME = libft.a
 INCLUDE = -I.
 
 SRCDIR = ./
-SRCS = ft_calloc.c
+SRCS = ft_bzero.c
+SRCS += ft_calloc.c
 SRCS += ft_isdigit.c
 SRCS += ft_memcpy.c
 SRCS += ft_memmove.c
