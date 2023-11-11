@@ -15,6 +15,7 @@ SRCS += ft_putchar_fd.c
 SRCS += ft_putendl_fd.c
 SRCS += ft_putnbr_fd.c
 SRCS += ft_putstr_fd.c
+SRCS += ft_strchr.c
 SRCS += ft_strdup.c
 SRCS += ft_strlcpy.c
 SRCS += ft_strlen.c
