@@ -21,6 +21,7 @@ SRCS += ft_strjoin.c
 SRCS += ft_strlcat.c
 SRCS += ft_strlcpy.c
 SRCS += ft_strlen.c
+SRCS += ft_strncmp.c
 SRCS += get_next_line.c
 
 OBJS = $(addprefix $(SRCDIR),$(SRCS:%.c=%.o))
